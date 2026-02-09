@@ -124,10 +124,25 @@
         </section>
 
         <!-- Code Example -->
-        <section class="section">
+        <section class="section" id="code-example">
           <h2>Code Example</h2>
           <pre><code>
-        </code></pre>
+interface User {
+  id: number;
+  name: string;
+  email: string;
+  role: 'admin' | 'user';
+}
+
+/**
+ * Filters users by their role
+ * @param users - Array of User objects
+ * @param role - Role to filter by
+ */
+const filterUsersByRole = (users: User[], role: string): User[] =&gt; {
+  return users.filter((user) =&gt; user.role === role);
+};
+    </code></pre>
         </section>
 
         <!-- Education -->
