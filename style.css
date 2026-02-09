@@ -5,13 +5,7 @@
 }
 
 body {
-  font-family:
-    'Inter',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.7;
   background: radial-gradient(circle at top right, #e2e8f0, #f8fafc);
   color: #1e293b;
@@ -166,6 +160,12 @@ ul {
   color: #34d399;
 }
 
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
 .project-item {
   background: #fcfdfd;
   padding: 25px;
@@ -226,14 +226,11 @@ footer {
     padding: 30px;
     margin: 10px auto;
   }
-
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
   header h1 {
     font-size: 2rem;
-  }
-
-  nav ul {
-    gap: 15px;
-    flex-wrap: wrap;
   }
 }
 
@@ -241,5 +238,10 @@ footer {
   header ul {
     flex-direction: column;
     gap: 10px;
+  }
+  nav ul {
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
   }
 }
