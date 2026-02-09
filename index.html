@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Mariam Bukhaidze CV</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#objective">Objective</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+      <img src="./assets/profile-photo.PNG" alt="Mariam Bukhaidze Photo">
+      <h1>Mariam Bukhaidze</h1>
+      <ul>
+        <li>Phone: +995 557 53 89 33</li>
+        <li>Email: <a href="mailto:mariebukhaidze@gmail.com">mariebukhaidze@gmail.com</a></li>
+        <li>Location: Tbilisi, Georgia</li>
+        <li>GitHub: <a href="https://github.com/maribukh" target="_blank">maribukh</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="section" id="objective">
+        <h2>Professional Summary</h2>
+        <p>
+          Detail-oriented Front-End Developer with an academic background in
+          IT Management. Specialized in building scalable web applications
+          using React and TypeScript. Proficient in both client-side and
+          server-side architecture (Node.js/Express). Focused on writing
+          clean, optimized code (SOLID, DRY principles) and solving business
+          problems through effective technical solutions.
+        </p>
+      </section>
+
+      <section class="section" id="experience">
+        <h2>Work Experience</h2>
+        <h3>Front-End Developer (Intern)</h3>
+        <div class="date">Itransition | September 2025 – November 2025</div>
+        <ul>
+          <li>Developed a User Management SPA implementing core features with React and TypeScript</li>
+          <li>Managed application state, client-side form validation, and asynchronous API requests</li>
+          <li>Connected front-end to RESTful API built with Express.js and Node.js</li>
+          <li>Built RESTful API and server-side logic using Express.js with PostgreSQL for data persistence</li>
+        </ul>
+
+        <h3>Hotel Host & Platform Manager</h3>
+        <div class="date">City Centre Apartment - Mari | April 2024 – Present</div>
+        <ul>
+          <li>Managed Airbnb/Booking.com listings and guest communication</li>
+          <li>Developed strong problem-solving and organizational skills</li>
+        </ul>
+      </section>
+
+      <section class="section" id="projects">
+        <h2>Projects</h2>
+        <div class="project-item">
+          <h3>Inventory Management System</h3>
+          <p><strong>Stack:</strong> TypeScript, React, Node.js, PostgreSQL</p>
+          <ul>
+            <li>Full-stack solution for inventory tracking and management</li>
+            <li>Implemented secure RESTful API endpoints and database schema</li>
+          </ul>
+          <p>
+            <a href="https://github.com/maribukh/inventory-project_ITransition" target="_blank">Source Code</a> | 
+            <a href="https://inventory-client-yh25.onrender.com/" target="_blank">Live Demo</a>
+          </p>
+        </div>
+
+        <div class="project-item">
+          <h3>Final Graduation Project (BTU)</h3>
+          <p><strong>Stack:</strong> Angular, TypeScript, CSS</p>
+          <ul>
+            <li>Collaborated in a team environment following Agile methodologies</li>
+            <li>Focused on component modularity and clean state management</li>
+          </ul>
+          <p>
+            <a href="https://github.com/maribukh/Final-Project-BTU" target="_blank">Source Code</a> | 
+            <a href="https://final-project-btu-94qm.vercel.app/" target="_blank">Live Demo</a>
+          </p>
+        </div>
+
+        <div class="project-item">
+          <h3>Personal Demo Profile</h3>
+          <p><strong>Stack:</strong> React, Tailwind CSS, TypeScript</p>
+          <ul>
+            <li>Modern, responsive profile page to showcase UI/UX skills</li>
+            <li>Implemented smooth animations and cross-browser compatibility</li>
+          </ul>
+          <p>
+            <a href="https://github.com/maribukh/my-demo-profile" target="_blank">Source Code</a> | 
+            <a href="https://mariam-dev.vercel.app/" target="_blank">Live Demo</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+          <div>
+            <h3>Development</h3>
+            <ul>
+              <li>HTML5, CSS3, SCSS</li>
+              <li>JavaScript (ES6+), TypeScript</li>
+              <li>React, Vite, Tailwind CSS</li>
+              <li>Angular (Beginner)</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Industry Knowledge</h3>
+            <ul>
+              <li>UI/UX Design, Figma</li>
+              <li>Responsive Design, SEO Basics</li>
+              <li>Fetch API, JSON, REST</li>
+              <li>Git, GitHub, DevTools</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="code-example">
+        <h2>Code Example</h2>
+        <pre><code>
+interface User {
+  id: number;
+  name: string;
+  role: 'admin' | 'user';
+}
+
+const filterUsersByRole = (users: User[], role: string): User[] =&gt; {
+  return users.filter((user) =&gt; user.role === role);
+};
+        </code></pre>
+      </section>
+
+      <section class="section" id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <strong>Bachelor of Business Administration (IT Management)</strong><br>
+            Ivane Javakhishvili Tbilisi State University | 2020 – 2024
+          </li>
+          <li>
+            <strong>Front-End Development Program</strong><br>
+            Ivane Javakhishvili Tbilisi State University | 2024 – 2025
+          </li>
+          <li>
+            <strong>Women Mentorship in Tech: Front-End</strong><br>
+            Business and Technology University | 2025
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <a href="https://github.com/maribukh" target="_blank">Mariam Bukhaidze</a>
+        <p>2026</p>
+        <a href="https://rs.school/js-en/" target="_blank">
+          <img src="./assets/RsBanner.svg" alt="RS School Logo" style="width: 100px;">
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
