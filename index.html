@@ -13,18 +13,18 @@
         <ul>
           <li><a href="#objective">Objective</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#projects">Education Projects</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#education">Education</a></li>
         </ul>
       </nav>
-      <img src="./assets/profile-photo.PNG" alt="Mariam Bukhaidze Photo">
+      <img src="./assets/profile-photo.png" alt="Mariam Bukhaidze Photo">
       <h1>Mariam Bukhaidze</h1>
-      <ul>
+     <ul>
         <li>Phone: +995 557 53 89 33</li>
         <li>Email: <a href="mailto:mariebukhaidze@gmail.com">mariebukhaidze@gmail.com</a></li>
+        <li>Discord: <strong>maribukh_82570</strong></li>
         <li>Location: Tbilisi, Georgia</li>
-        <li>GitHub: <a href="https://github.com/maribukh" target="_blank">maribukh</a></li>
       </ul>
     </header>
 
@@ -61,13 +61,15 @@
       </section>
 
       <section class="section" id="projects">
-        <h2>Projects</h2>
+        <h2>Educational Projects</h2>
+        
         <div class="project-item">
           <h3>Inventory Management System</h3>
+          <div class="date">Internship Project | ITransition</div>
           <p><strong>Stack:</strong> TypeScript, React, Node.js, PostgreSQL</p>
           <ul>
-            <li>Full-stack solution for inventory tracking and management</li>
-            <li>Implemented secure RESTful API endpoints and database schema</li>
+            <li>Full-stack solution for inventory tracking with secure API endpoints.</li>
+            <li>Implemented database schema and responsive dashboard visualization.</li>
           </ul>
           <p>
             <a href="https://github.com/maribukh/inventory-project_ITransition" target="_blank">Source Code</a> | 
@@ -77,10 +79,11 @@
 
         <div class="project-item">
           <h3>Final Graduation Project (BTU)</h3>
+          <div class="date">University Project | BTU</div>
           <p><strong>Stack:</strong> Angular, TypeScript, CSS</p>
           <ul>
-            <li>Collaborated in a team environment following Agile methodologies</li>
-            <li>Focused on component modularity and clean state management</li>
+            <li>Collaborated in a team to build a complex web application using Agile.</li>
+            <li>Focused on component modularity and clean state management.</li>
           </ul>
           <p>
             <a href="https://github.com/maribukh/Final-Project-BTU" target="_blank">Source Code</a> | 
@@ -90,10 +93,11 @@
 
         <div class="project-item">
           <h3>Personal Demo Profile</h3>
+          <div class="date">Self-Directed Project</div>
           <p><strong>Stack:</strong> React, Tailwind CSS, TypeScript</p>
           <ul>
-            <li>Modern, responsive profile page to showcase UI/UX skills</li>
-            <li>Implemented smooth animations and cross-browser compatibility</li>
+            <li>Responsive profile page showcasing UI/UX skills and smooth animations.</li>
+            <li>Focused on cross-browser compatibility and performance.</li>
           </ul>
           <p>
             <a href="https://github.com/maribukh/my-demo-profile" target="_blank">Source Code</a> | 
@@ -126,18 +130,19 @@
         </div>
       </section>
 
-      <section class="section" id="code-example">
-        <h2>Code Example</h2>
+   <section class="section" id="code-example">
+        <h2>Code Example (Codewars)</h2>
+        <p>Solution for "Sum of Digits / Digital Root" challenge:</p>
         <pre><code>
-interface User {
-  id: number;
-  name: string;
-  role: 'admin' | 'user';
+function digitalRoot(n) {
+  if (n &lt; 10) return n;
+  
+  const sum = n.toString()
+               .split('')
+               .reduce((acc, digit) =&gt; acc + Number(digit), 0);
+               
+  return digitalRoot(sum);
 }
-
-const filterUsersByRole = (users: User[], role: string): User[] =&gt; {
-  return users.filter((user) =&gt; user.role === role);
-};
         </code></pre>
       </section>
 
@@ -158,6 +163,15 @@ const filterUsersByRole = (users: User[], role: string): User[] =&gt; {
           </li>
         </ul>
       </section>
+      <section class="section">
+        <h2>English Language Proficiency</h2>
+        <p><strong>Level: Upper-Intermediate (B2)</strong></p>
+        <ul>
+          <li>I have been studying English since primary school, developing a strong foundation over many years.</li>
+          <li>Successfully completed a <strong>Business English (B2)</strong> course at university.</li>
+          <li>I maintain constant immersion in the language by reading technical documentation, English literature, and watching films in the original version.</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
@@ -165,7 +179,7 @@ const filterUsersByRole = (users: User[], role: string): User[] =&gt; {
         <a href="https://github.com/maribukh" target="_blank">Mariam Bukhaidze</a>
         <p>2026</p>
         <a href="https://rs.school/js-en/" target="_blank">
-          <img src="./assets/RsBanner.svg" alt="RS School Logo" style="width: 100px;">
+          <img src="./assets/rs-school-logo.svg" alt="RS School Logo" style="width: 100px;">
         </a>
       </div>
     </footer>
