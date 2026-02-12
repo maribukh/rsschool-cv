@@ -1,18 +1,4 @@
 ﻿# rsschool-cv
 
-This repository contains my CV created as part of the [RS School](https://rs.school/) JS/Front-end Short Track Course.
-
 ## Deployment
-You can view the live version of my CV here: 
 👉 **[https://maribukh.github.io/rsschool-cv/](https://maribukh.github.io/rsschool-cv/)**
-
-## Technical Features
-- **Semantic HTML5:** Used meaningful tags like `header`, `main`, `footer`, `nav`, and `section`.
-- **Responsive Design:** The layout is fully responsive and centered for all screen sizes.
-- **W3C Validated:** No errors or warnings in the HTML markup.
-- **Modern CSS:** Styled with a sophisticated emerald theme and custom layout.
-- **Git Best Practices:** Followed Conventional Commits guideline.
-
-## Task Details
-- **Task:** [CV. HTML, CSS & Git Basics](https://github.com/rolling-scopes-school/qualifying-stage/blob/main/tasks/cv/html-css-git.md)
-- **Score:** ? / 130
